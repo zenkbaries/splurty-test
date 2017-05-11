@@ -81,5 +81,6 @@ test:
 production:
   <<: *default
   database: splurty_production
-  username: splurty
+  # username: splurty
+  username: postgres
   password: <%= ENV['SPLURTY_DATABASE_PASSWORD'] %>
